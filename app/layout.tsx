@@ -12,9 +12,11 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+\export const metadata = {
   title: "HW Tech",
-  description: "Modern Web Development, infrastructure solutions, and automation services.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
