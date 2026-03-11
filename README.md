@@ -1,83 +1,126 @@
 # HW-Tech-Site
-HW Tech official website
-A modern technology services website built to gain hands-on experience with modern web development, deployment workflows, and production hosting. The site serves as both a portfolio project and a demonstration of practical skills in building and deploying real websites.
+
+HW Tech Website
+
+A modern technology services website built to gain hands-on experience with React, Next.js, and real-world deployment workflows.
+This project demonstrates the full process of building, customizing, and deploying a production-ready website.
+
+Live Site
+
+🌐 https://hwtech.dev
 
 Overview
 
-This project was created to practice the full lifecycle of building and launching a website — from development to deployment. It focuses on clean design, performance, and a modern UI while showcasing technical services and projects.
+This project was built to practice modern web development while creating a professional technology services website.
 
-The website is deployed publicly using Cloudflare Pages and connected to a GitHub repository for automated deployments.
+The site focuses on:
 
+Clean UI design
+
+Component-based architecture
+
+automated deployments
+
+modern hosting infrastructure
+
+It serves as both a portfolio project and a technical learning exercise in deploying real web applications.
+
+Architecture
+            User Browser
+                 │
+                 ▼
+           Cloudflare CDN
+                 │
+                 ▼
+          Cloudflare Pages
+                 │
+                 ▼
+             Next.js App
+                 │
+        ┌────────┴────────┐
+        ▼                 ▼
+     React UI        Tailwind CSS
+   Components          Styling
 Tech Stack
 
-Next.js – React framework used for the site's structure and routing
+Frontend
 
-React – Component-based UI development
+Next.js
 
-TypeScript – Type-safe JavaScript development
+React
 
-Tailwind CSS – Utility-first styling for fast UI design
+TypeScript
 
-Cloudflare Pages – Production hosting and continuous deployment
+Tailwind CSS
 
-Git & GitHub – Version control and deployment integration
+Infrastructure
+
+Cloudflare Pages (Hosting)
+
+Cloudflare CDN (Performance & DNS)
+
+GitHub (Version control)
 
 Features
 
-Modern responsive website layout
+Responsive modern website layout
 
-Animated glowing background for visual design
+Dark theme UI
 
-Clean component-based architecture
+Animated glowing background
 
-Cloudflare connected production hosting
+Service and project sections
 
-Continuous deployment through GitHub commits
+Cloudflare-connected hosting
 
-Contact section for potential clients
+Automatic deployments through GitHub
 
 Development Process
 
-The project started with a Next.js template, which was used as a base structure. From there the site was customized and expanded.
+The project began using a Next.js starter template to provide the base framework.
 
-Key customizations included:
+From there the site was customized by:
 
-Editing the layout and styling to create a dark themed design
+modifying layout and styling
 
-Adding a glowing animated background for visual depth
+creating custom UI components
 
-Creating custom sections for services and projects
+adding a glowing animated background
 
-Building reusable React components
+structuring service and project sections
 
-Configuring deployment through Cloudflare Pages
+configuring Cloudflare Pages deployment
 
-Connecting the GitHub repository for automatic deployments
+linking GitHub for automatic deployments
 
-Purpose of This Project
+Project Goals
 
-This site was built to develop hands-on experience with modern web development tools and real-world deployment practices. It demonstrates the ability to:
+This project was built to gain practical experience with:
 
-Build responsive websites
+React component development
 
-Work with modern frameworks like React and Next.js
+modern frontend frameworks
 
-Manage version control with Git
+Git workflows
 
-Deploy and host production websites
+production hosting
 
-Customize templates into fully functional sites
+web deployment pipelines
 
 Future Improvements
 
-Planned improvements include:
+Planned updates include:
 
-Functional contact form with backend handling
+functional backend contact form
 
-Additional project showcase pages
+additional project pages
 
-Improved animations and UI polish
+improved animations
 
-Analytics integration
+analytics integration
 
 SEO improvements
+
+Repository Purpose
+
+This repository exists as a learning project and portfolio demonstration showing hands-on experience with modern web technologies and deployment practices.
